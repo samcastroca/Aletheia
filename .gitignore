@@ -1,0 +1,13 @@
+# Entorno
+.venv/
+__pycache__/
+.env
+
+# Generado por manimgx (render, inspect, present)
+*.mp4
+*.srt
+*.storyboard*.png
+videos/**/*.html
+videos/**/*.pdf
+
+# videos/*/voice/ NO se ignora: audio + JSON de la narración, caché de pago que se versiona.
